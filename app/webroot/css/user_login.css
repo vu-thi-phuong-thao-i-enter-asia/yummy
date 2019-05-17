@@ -1,0 +1,57 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+	background-image: url('/img/myimg/background.jpg');
+	background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainbox{
+	margin-top: 35px;
+}
+
+.panel-body{
+	padding-top: 30px;
+}
+
+.input-group{
+	margin-bottom: 20px;
+}
+
+.controls{
+	font-size: 85%;
+}
+
+.panel-default > .panel-heading {
+	background-color: #f4e3f7;
+	border-color: #C873D7;
+}
+
+.panel-default > .panel-footer {
+	background-color: #f4e3f7;
+	border-color: #C873D7;
+}
+
+.panel-default{
+	border-color: #C873D7;
+}
+
+.input-group-addon{
+	background-color: #f4e3f7;
+}
+
+.logo{
+	width: 180px;
+	height: auto;
+	display: block;
+
+	margin: 0 auto;
+}
+
+#flashMessage {
+	color: red;
+}
