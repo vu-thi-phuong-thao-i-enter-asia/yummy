@@ -1,0 +1,21 @@
+openapi: 3.0.0
+info:
+  title: Swagger Test API
+  version: 1.0.0
+  description: Simple Swagger test for GitHub Pages
+paths:
+  /hello:
+    get:
+      summary: Hello World
+      description: Returns a simple hello message
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Hello, world!
